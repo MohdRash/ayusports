@@ -176,6 +176,78 @@ a:hover {
   color: #000;
 }
 
+/* width */
+.select-wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.select-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.select-wrapper::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.select-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.select-wrapper {
+  display:inline-block;
+  border:1px solid #E2DFDD;
+  position:relative;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  margin-top: 10px;
+  height: 15rem;
+}
+.select-wrapper:before{
+  content: "";
+  position:absolute;
+  right: 5px;
+  top:8px;
+  border-width: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #666666 transparent  transparent  transparent ;
+  z-index:3;
+  pointer-events:none;
+}
+.select-wrapper:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  width:20px;
+  right:0px;
+  border-left:1px solid #bababa;
+  background-color:#ededed;
+  -webkit-border-top-right-radius:5px;
+  -moz-border-top-right-radius:5px;
+  border-top-right-radius:5px;
+  -webkit-border-bottom-right-radius:5px;
+  -moz-border-bottom-right-radius:5px;
+  border-bottom-right-radius:5px;
+  pointer-events:none;
+}
+select {
+  width:100%;
+  background-color:#ededed;
+  border:none;
+  outline:none;
+  padding:0px;
+  margin:0px;
+  position:relative;
+}
+.make-it-tiny {
+  font-size: 10px !important;
+}
+
 table {
   width: 100%;
 }
