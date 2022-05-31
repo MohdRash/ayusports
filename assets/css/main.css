@@ -3785,6 +3785,22 @@ h6 {
   margin-bottom: 0px;
   display: inline-block;
 }
+.counter-content {
+  padding-left: 40px;
+  padding-top: 25px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+.counter-count {
+  color: #C7A17A;
+  margin-top: 0;
+  font-size: 15px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
 .feature__item--3 .content p {
   font-size: 18px;
   color: #ffffff;
