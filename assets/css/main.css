@@ -135,6 +135,16 @@ body {
   line-height: 29px;
 }
 
+
+/* specials */
+
+.neon {
+  text-shadow: 0 0 10px #0adef2, 0 0 20px #0adef2, 0 0 30px #0adef2, 0 0 40px #0adef2, 0 0 70px #0adef2, 0 0 80px #0adef2, 0 0 100px #0adef2, 0 0 150px #0adef2;
+}
+
+
+/* specials-ends */
+
 img {
   max-width: 100%;
   height: auto;
